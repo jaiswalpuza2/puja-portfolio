@@ -72,15 +72,6 @@ export default function Education() {
                   </div>
                 )}
                 
-                {edu.image && (
-                  <div className="mt-4 rounded-xl overflow-hidden border border-border">
-                    <img 
-                      src={edu.image} 
-                      alt={`${edu.institution} Campus`} 
-                      className="w-full h-auto max-h-96 object-cover hover:scale-105 transition-transform duration-500" 
-                    />
-                  </div>
-                )}
               </div>
             </div>
           ))}

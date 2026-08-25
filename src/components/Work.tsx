@@ -64,15 +64,6 @@ export default function Work() {
                   ))}
                 </ul>
                 
-                {job.image && (
-                  <div className="mt-4 rounded-xl overflow-hidden border border-border">
-                    <img 
-                      src={job.image} 
-                      alt={`${job.company} Experience`} 
-                      className="w-full h-auto max-h-96 object-cover hover:scale-105 transition-transform duration-500" 
-                    />
-                  </div>
-                )}
               </div>
             </div>
           ))}
